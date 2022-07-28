@@ -1,0 +1,19 @@
+{
+    "name": "mrkwp/domain-core",
+    "description": "Website Core Functions",
+    "type": "project",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "MRK WP",
+            "email": "helpdesk@mrkwp.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "lib"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {"Domain_Core\\": "./core"}
+    }
+}
